@@ -1,0 +1,20 @@
+{
+	"name": "metal-flux",
+	"version": "0.0.0",
+	"description": "A Flux implementation for Metal.js",
+	"moduleType": [
+		"es6"
+	],
+	"keywords": [
+		"metal",
+		"flux"
+	],
+	"ignore": [
+		"*",
+		"!src/**/*",
+		"!test/**/*"
+	],
+	"dependencies": {
+		"metal": "metal/metal.js#master"
+	}
+}
