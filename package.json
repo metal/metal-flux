@@ -5,8 +5,13 @@
   "license": "MIT",
   "repository": "metal/metal-flux",
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=0.12.0",
+    "npm": ">=3.0.0"
   },
+  "files": [
+    "src/**/*.js",
+    "test/**/*.js"
+  ],
   "scripts": {
     "test": "gulp test"
   },
@@ -14,21 +19,13 @@
     "metal",
     "flux"
   ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "closure-templates": "20140422.0.0",
+    "metal": "metal/metal.js#master"
+  },
   "devDependencies": {
-    "chai": "^2.3.0",
     "gulp": "^3.8.11",
-    "gulp-metal": "^0.4.1",
-    "isparta": "^3.0.3",
-    "karma": "^0.13.9",
-    "karma-babel-preprocessor": "^5.2.1",
-    "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^0.2.0",
-    "karma-commonjs": "0.0.13",
-    "karma-coverage": "^0.5.1",
-    "karma-mocha": "^0.2.0",
-    "karma-sinon": "^1.0.4",
-    "karma-source-map-support": "1.0.0",
-    "mocha": "^2.2.5",
-    "sinon": "^1.17.2"
+		"gulp-metal": "^0.9.0"
   }
 }

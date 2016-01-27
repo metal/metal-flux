@@ -16,7 +16,6 @@ A Flux implementation for Metal.js
 
   ```
   npm install
-  bower install
   ```
 
 4. Build the code:

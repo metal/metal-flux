@@ -1,6 +1,6 @@
 'use strict';
 
-import EventEmitter from 'bower:metal/src/events/EventEmitter';
+import EventEmitter from 'metal/src/events/EventEmitter';
 import FluxDispatcher from '../src/FluxDispatcher';
 import FluxStore from '../src/FluxStore';
 
