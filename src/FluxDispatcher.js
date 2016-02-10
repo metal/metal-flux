@@ -1,6 +1,6 @@
 'use strict';
 
-import Disposable from 'metal/src/disposable/Disposable';
+import { Disposable } from 'metal';
 
 /**
  * The dispatcher class for use in a Flux architecture

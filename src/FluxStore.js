@@ -1,6 +1,6 @@
 'use strict';
 
-import EventEmitter from 'metal/src/events/EventEmitter';
+import EventEmitter from 'metal-events';
 
 /**
  * The store base class for use in a Flux architecture
