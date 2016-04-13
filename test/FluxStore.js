@@ -55,4 +55,13 @@ describe('FluxStore', function() {
 
 		assert.ok(!called);
 	});
+
+	it('should emit "change" event when "emitChange" is called', function() {
+		var store = new FluxStore(new FluxDispatcher());
+		var listener = sinon.stub();
+		store.on('change', listener);
+
+		store.emitChange();
+		assert.strictEqual(1, listener.callCount);
+	});
 });

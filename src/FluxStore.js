@@ -23,6 +23,13 @@ class FluxStore extends EventEmitter {
 	}
 
 	/**
+	 * Emits the `change` event.
+	 */
+	emitChange() {
+		this.emit(FluxStore.EVENT_CHANGE);
+	}
+
+	/**
 	 * Handles a dispatch from this store's dispatcher. Should be overridden
 	 * by subclasses.
 	 * @protected
