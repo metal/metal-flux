@@ -1,6 +1,6 @@
 {
   "name": "metal-flux",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A Flux implementation for Metal.js",
   "license": "MIT",
   "repository": "metal/metal-flux",
